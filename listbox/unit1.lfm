@@ -1,0 +1,27 @@
+object Form1: TForm1
+  Left = 360
+  Height = 240
+  Top = 233
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '1.0.10.0'
+  object Edit1: TEdit
+    Left = 88
+    Height = 21
+    Top = 61
+    Width = 80
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object ListBox1: TListBox
+    Left = 200
+    Height = 80
+    Top = 113
+    Width = 100
+    ItemHeight = 0
+    TabOrder = 1
+  end
+end
