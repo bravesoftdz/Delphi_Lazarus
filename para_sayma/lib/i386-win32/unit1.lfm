@@ -1,0 +1,480 @@
+object Form1: TForm1
+  Left = 222
+  Height = 508
+  Top = 115
+  Width = 328
+  Caption = 'Form1'
+  ClientHeight = 508
+  ClientWidth = 328
+  Color = clSilver
+  LCLVersion = '1.0.10.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 22
+    Top = 8
+    Width = 72
+    Caption = 'Para Türü'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -15
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 120
+    Height = 22
+    Top = 8
+    Width = 80
+    Caption = 'Para Adedi'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -15
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 232
+    Height = 22
+    Top = 8
+    Width = 84
+    Caption = 'Ara Toplam'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -15
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 24
+    Height = 20
+    Top = 46
+    Width = 47
+    Caption = '200 TL'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 24
+    Height = 20
+    Top = 78
+    Width = 47
+    Caption = '100 TL'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Height = 20
+    Top = 111
+    Width = 39
+    Caption = '50 TL'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 24
+    Height = 20
+    Top = 144
+    Width = 39
+    Caption = '20 TL'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 24
+    Height = 20
+    Top = 176
+    Width = 39
+    Caption = '10 TL'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 24
+    Height = 20
+    Top = 208
+    Width = 31
+    Caption = '5 TL'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 24
+    Height = 20
+    Top = 240
+    Width = 31
+    Caption = '1 TL'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 24
+    Height = 20
+    Top = 272
+    Width = 37
+    Caption = '50 Kr'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 24
+    Height = 20
+    Top = 304
+    Width = 37
+    Caption = '25 Kr'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label13: TLabel
+    Left = 24
+    Height = 20
+    Top = 336
+    Width = 37
+    Caption = '10 Kr'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 120
+    Height = 21
+    Top = 45
+    Width = 80
+    OnChange = Edit1Change
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 0
+    Text = '0'
+  end
+  object Edit2: TEdit
+    Left = 120
+    Height = 21
+    Top = 77
+    Width = 80
+    OnClick = Edit2Click
+    OnKeyPress = Edit2KeyPress
+    TabOrder = 1
+    Text = '0'
+  end
+  object Edit3: TEdit
+    Left = 120
+    Height = 21
+    Top = 110
+    Width = 80
+    OnClick = Edit3Click
+    OnKeyPress = Edit3KeyPress
+    TabOrder = 2
+    Text = '0'
+  end
+  object Edit4: TEdit
+    Left = 120
+    Height = 21
+    Top = 144
+    Width = 80
+    OnClick = Edit4Click
+    OnKeyPress = Edit4KeyPress
+    TabOrder = 3
+    Text = '0'
+  end
+  object Edit5: TEdit
+    Left = 120
+    Height = 21
+    Top = 175
+    Width = 80
+    OnClick = Edit5Click
+    OnKeyPress = Edit5KeyPress
+    TabOrder = 4
+    Text = '0'
+  end
+  object Edit6: TEdit
+    Left = 120
+    Height = 21
+    Top = 207
+    Width = 80
+    OnClick = Edit6Click
+    OnKeyPress = Edit6KeyPress
+    TabOrder = 5
+    Text = '0'
+  end
+  object Edit7: TEdit
+    Left = 120
+    Height = 21
+    Top = 239
+    Width = 80
+    OnClick = Edit7Click
+    OnKeyPress = Edit7KeyPress
+    TabOrder = 6
+    Text = '0'
+  end
+  object Edit8: TEdit
+    Left = 120
+    Height = 21
+    Top = 271
+    Width = 80
+    OnClick = Edit8Click
+    OnKeyPress = Edit8KeyPress
+    TabOrder = 7
+    Text = '0'
+  end
+  object Edit9: TEdit
+    Left = 120
+    Height = 21
+    Top = 303
+    Width = 80
+    OnClick = Edit9Click
+    OnKeyPress = Edit9KeyPress
+    TabOrder = 8
+    Text = '0'
+  end
+  object Edit10: TEdit
+    Left = 120
+    Height = 21
+    Top = 335
+    Width = 80
+    OnClick = Edit10Click
+    OnKeyPress = Edit10KeyPress
+    TabOrder = 9
+    Text = '0'
+  end
+  object Edit11: TEdit
+    Left = 236
+    Height = 21
+    Top = 45
+    Width = 80
+    OnChange = Edit11Change
+    TabOrder = 10
+  end
+  object Edit12: TEdit
+    Left = 236
+    Height = 21
+    Top = 77
+    Width = 80
+    TabOrder = 11
+  end
+  object Edit13: TEdit
+    Left = 236
+    Height = 21
+    Top = 110
+    Width = 80
+    TabOrder = 12
+  end
+  object Edit14: TEdit
+    Left = 236
+    Height = 21
+    Top = 143
+    Width = 80
+    TabOrder = 13
+  end
+  object Edit15: TEdit
+    Left = 236
+    Height = 21
+    Top = 175
+    Width = 80
+    TabOrder = 14
+  end
+  object Edit16: TEdit
+    Left = 236
+    Height = 21
+    Top = 207
+    Width = 80
+    TabOrder = 15
+  end
+  object Edit17: TEdit
+    Left = 236
+    Height = 21
+    Top = 239
+    Width = 80
+    TabOrder = 16
+  end
+  object Edit18: TEdit
+    Left = 236
+    Height = 21
+    Top = 271
+    Width = 80
+    TabOrder = 17
+  end
+  object Edit19: TEdit
+    Left = 236
+    Height = 21
+    Top = 303
+    Width = 80
+    TabOrder = 18
+  end
+  object Edit20: TEdit
+    Left = 236
+    Height = 21
+    Top = 336
+    Width = 80
+    TabOrder = 19
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 368
+    Width = 75
+    Caption = 'Toplam'
+    OnClick = Button1Click
+    TabOrder = 20
+  end
+  object Button2: TButton
+    Left = 16
+    Height = 25
+    Top = 400
+    Width = 75
+    Caption = 'Toplamı Sil'
+    OnClick = Button2Click
+    TabOrder = 21
+  end
+  object Button4: TButton
+    Left = 16
+    Height = 25
+    Top = 472
+    Width = 75
+    Caption = 'Sıfırla'
+    OnClick = Button4Click
+    TabOrder = 22
+  end
+  object Edit21: TEdit
+    Left = 184
+    Height = 21
+    Top = 368
+    Width = 132
+    TabOrder = 23
+  end
+  object Edit22: TEdit
+    Left = 144
+    Height = 21
+    Top = 432
+    Width = 172
+    TabOrder = 24
+    Text = '0'
+  end
+  object Button3: TButton
+    Left = 120
+    Height = 25
+    Top = 472
+    Width = 75
+    Caption = 'KAPAT'
+    OnClick = Button3Click
+    TabOrder = 25
+  end
+  object Label14: TLabel
+    Left = 24
+    Height = 20
+    Top = 433
+    Width = 85
+    Caption = 'Genel Toplam'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label15: TLabel
+    Left = 36
+    Height = 1
+    Top = 476
+    Width = 1
+    ParentColor = False
+  end
+  object Label16: TLabel
+    Left = 238
+    Height = 17
+    Top = 483
+    Width = 78
+    Caption = 'Raziye AYDIN'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clPurple
+    Font.Height = -11
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+end
