@@ -1,0 +1,100 @@
+unit Unit1;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
+  StdCtrls;
+
+type
+
+  { TForm1 }
+
+  TForm1 = class(TForm)
+    Button1: TButton;
+    CheckBox1: TCheckBox;
+    CheckBox2: TCheckBox;
+    CheckBox3: TCheckBox;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Memo1: TMemo;
+    RadioButton1: TRadioButton;
+    RadioButton2: TRadioButton;
+    procedure Button1Click(Sender: TObject);
+    procedure CheckBox1Change(Sender: TObject);
+    procedure CheckBox1Click(Sender: TObject);
+    procedure CheckBox2Click(Sender: TObject);
+    procedure CheckBox3Click(Sender: TObject);
+    procedure Edit1Click(Sender: TObject);
+    procedure Edit2Click(Sender: TObject);
+    procedure RadioButton1Click(Sender: TObject);
+    procedure RadioButton2Change(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.lfm}
+
+{ TForm1 }
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  Memo1.Text := Edit1.Text + Edit2.Text ;  ;
+end;
+
+procedure TForm1.CheckBox1Change(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.CheckBox1Click(Sender: TObject);
+begin
+   Memo1.Text := '' ;
+   Memo1.Text := Memo1.Text + '1' ;
+end;
+
+procedure TForm1.CheckBox2Click(Sender: TObject);
+begin
+   Memo1.Text := '' ;
+    Memo1.Text := Memo1.Text + '2' ;
+end;
+
+procedure TForm1.CheckBox3Click(Sender: TObject);
+begin
+    Memo1.Text := '' ;
+   Memo1.Text :=Memo1.Text + '3' ;
+end;
+
+
+procedure TForm1.Edit1Click(Sender: TObject);
+begin
+  Edit1.Text := '' ;
+end;
+
+procedure TForm1.Edit2Click(Sender: TObject);
+begin
+   Edit2.Text := '' ;
+end;
+
+procedure TForm1.RadioButton1Click(Sender: TObject);
+begin
+  Memo1.Text := Edit1.Text ;
+end;
+
+procedure TForm1.RadioButton2Change(Sender: TObject);
+begin
+  Memo1.Text := Edit2.Text ;
+end;
+
+
+end.
+
