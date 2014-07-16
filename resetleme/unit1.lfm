@@ -1,0 +1,68 @@
+object Form1: TForm1
+  Left = 365
+  Height = 267
+  Top = 159
+  Width = 147
+  Caption = 'Form1'
+  ClientHeight = 267
+  ClientWidth = 147
+  LCLVersion = '1.0.10.0'
+  object Edit1: TEdit
+    Left = 32
+    Height = 21
+    Top = 16
+    Width = 80
+    OnChange = Edit1Change
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 32
+    Height = 21
+    Top = 48
+    Width = 80
+    OnChange = Edit2Change
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 32
+    Height = 21
+    Top = 144
+    Width = 80
+    OnChange = Edit3Change
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'topla'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 37
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = 'temizle'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 16
+    Top = 240
+    Width = 104
+    Caption = 'raziye aydın'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Fixedsys'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+end
