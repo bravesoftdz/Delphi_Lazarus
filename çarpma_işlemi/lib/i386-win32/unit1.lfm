@@ -1,0 +1,152 @@
+object Form1: TForm1
+  Left = 614
+  Height = 273
+  Top = 161
+  Width = 229
+  Caption = 'çarpma_işlemi'
+  ClientHeight = 273
+  ClientWidth = 229
+  Color = clPurple
+  OnCreate = FormCreate
+  LCLVersion = '1.0.10.0'
+  object Label1: TLabel
+    Left = 56
+    Height = 24
+    Top = 16
+    Width = 104
+    Caption = 'çarpma işlemi'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clSilver
+    Font.Height = -16
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 20
+    Top = 48
+    Width = 164
+    Caption = 'çarpılacak sayıları yazınız'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clSilver
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 21
+    Top = 88
+    Width = 80
+    OnChange = Edit1Change
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 136
+    Height = 21
+    Top = 88
+    Width = 80
+    OnChange = Edit2Change
+    OnKeyPress = Edit2KeyPress
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 80
+    Height = 25
+    Top = 128
+    Width = 75
+    Caption = 'çarp'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 20
+    Top = 168
+    Width = 38
+    Caption = 'Sonuç'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clSilver
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 17
+    Top = 112
+    Width = 31
+    Caption = 'sayi1'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clSilver
+    Font.Height = -12
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 185
+    Height = 17
+    Top = 112
+    Width = 31
+    Caption = 'sayi2'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clSilver
+    Font.Height = -12
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit3: TEdit
+    Left = 104
+    Height = 21
+    Top = 167
+    Width = 112
+    OnChange = Edit3Change
+    TabOrder = 3
+  end
+  object Label6: TLabel
+    Left = 159
+    Height = 18
+    Top = 255
+    Width = 76
+    Caption = 'raziye aydın...'
+    Font.CharSet = TURKISH_CHARSET
+    Font.Color = clWhite
+    Font.Height = -12
+    Font.Name = 'Comic Sans MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button2: TButton
+    Left = 40
+    Height = 25
+    Top = 224
+    Width = 75
+    Caption = 'sıfırla'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+end
